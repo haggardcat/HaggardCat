@@ -59,6 +59,7 @@
         android:layout_height="wrap_content"
         android:text="메뉴"
         android:textSize="@dimen/activity_vertical_margin"
+        android:ems="100"
         android:id="@+id/btHome"/>
 
 </LinearLayout>
