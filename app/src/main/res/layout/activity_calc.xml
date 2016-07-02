@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
@@ -11,17 +11,17 @@
     <EditText
         android:id="@+id/et1"
         android:layout_width="match_parent"
-        android:textSize="30dp"
+        android:layout_height="wrap_content"
         android:hint="0"
         android:textColor="#0000FF"
-        android:layout_height="wrap_content"/>
+        android:textSize="30dp" />
     <EditText
+        android:id="@+id/et2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
         android:hint="0"
-        android:id="@+id/et2"
-        android:textColor="#00FF00"/>
+        android:textColor="#00FF00"
+        android:textSize="30dp" />
 
     <Button
         android:id="@+id/btPlus"
@@ -48,17 +48,17 @@
         android:text="나누기"
         android:textSize="@dimen/activity_vertical_margin"/>
     <TextView
+        android:id="@+id/tvResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="결과 :"
-        android:textSize="30dp"
         android:textColor="#FF0000"
-        android:id="@+id/tvResult"/>
+        android:textSize="30dp" />
     <Button
+        android:id="@+id/btHome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="메뉴"
-        android:textSize="@dimen/activity_vertical_margin"
-        android:id="@+id/btHome"/>
+        android:textSize="@dimen/activity_vertical_margin" />
 
 </LinearLayout>
